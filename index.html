@@ -5,11 +5,13 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Abbosxon Sayliev</title>
-  <style>
-*{margin:0;padding:0;box-sizing:border-box}.container{max-width:375px;margin-left:auto;margin-right:auto;padding-left:13px;padding-right:13px}.wrapper{position:relative}.wrapper__img{position:absolute;top:310px;left:50%;transform:translate(-50%, -50%);max-width:375px;width:100%;height:570px}.header{position:relative;z-index:11;padding-top:16px;padding-bottom:12px}.header__container{max-width:261px;width:100%;display:flex;align-items:center;justify-content:space-between}.header__row{display:flex;align-items:center;gap:5px}.row__text{font-family:SF Pro Display, sans-serif;font-weight:400;font-size:16px;line-height:100%}.hero{position:relative;z-index:11}.hero__title{font-family:Bebas Neue, sans-serif;font-weight:400;font-size:clamp(28px, 8.7vw, 33px);line-height:112.99999999999999%;text-align:center;text-transform:uppercase;margin-bottom:4px}.hero__title span{color:#0260E8}.hero__text{font-family:Inter, sans-serif;font-weight:400;font-size:18px;line-height:100%;text-align:center;margin-bottom:8px}.logo{max-width:229px;width:100%;margin-left:auto;margin-right:auto;display:flex;height:auto}.btn{max-width:311px;width:100%;display:flex;align-items:center;gap:8px;font-family:"Bebas Neue" , sans-serif;font-weight:400;font-size:30px;line-height:100%;height:81px;justify-content:center;text-align:center;border-radius:1520px;text-transform:uppercase;color:white;text-decoration:none;padding:19px 0;margin-bottom:32px;margin-left:auto;margin-right:auto;background:linear-gradient(0deg, #0260E8, #0260E8), radial-gradient(102.92% 102.92% at 50% -45.56%, rgba(2, 96, 232, 0.55) 0%, rgba(2, 96, 232, 0) 100%);box-shadow:0px 3px 0px 0px #093E8C,0px 0px 36.48px 0px #0260E899 inset,0px 4px 20px 0px #0260E880;border:none}.fire{max-width:45px;width:100%;height:auto}.timer{margin-top:-10px;font-family:Bebas Neue, sans-serif;font-weight:400;font-size:36px;line-height:100%;text-align:center;text-transform:uppercase}.inner__title{margin-top:8px;font-family:Bebas Neue;font-weight:400;font-size:33px;line-height:114.99999999999999%;text-align:center;text-transform:uppercase;margin-bottom:3px}.inner__title span{color:#0367FD}.inner__row{display:flex;align-items:center;justify-content:center;gap:8px;margin-bottom:13px;margin-left:auto;margin-right:auto}.row__title{font-family:Bebas Neue, sans-serif;font-weight:400;font-size:56px;line-height:100%;letter-spacing:-5%;position:relative;z-index:4}.sticky{position:absolute;left:-7px;top:17px;z-index:11}.inner__text{font-family:Inter, sans-serif;font-weight:400;font-size:17px;line-height:135%;letter-spacing:0%;max-width:211px;width:100%}.inner__text b{font-weight:900}
-  </style>
 
-<!-- Meta Pixel Code -->
+  <link rel="preload" href="./font/BebasNeue-Regular.subset.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="./images/logo.avif" as="image" fetchpriority="high">
+
+  <style>*{margin:0;padding:0;box-sizing:border-box}.container{max-width:375px;margin:0 auto;padding:0 13px}.wrapper{position:relative}.wrapper__img{position:absolute;top:310px;left:50%;transform:translate(-50%,-50%);max-width:375px;width:100%;height:570px}.header{position:relative;z-index:11;padding:16px 0 12px}.header__container{max-width:261px;width:100%;display:flex;align-items:center;justify-content:space-between}.header__row{display:flex;align-items:center;gap:5px}.row__text{font-family:"SF Pro Display",sans-serif;font-weight:400;font-size:16px;line-height:100%}.hero{position:relative;z-index:11}.hero__title{font-family:"Bebas Neue",sans-serif;font-weight:400;font-size:clamp(28px,8.7vw,33px);line-height:113%;text-align:center;text-transform:uppercase;margin-bottom:4px}.hero__title span{color:#0260E8}.hero__text{font-family:Inter,sans-serif;font-weight:400;font-size:18px;line-height:100%;text-align:center;margin-bottom:8px}.logo{max-width:229px;width:100%;margin:0 auto;display:flex;height:auto}.btn{max-width:311px;width:100%;display:flex;align-items:center;justify-content:center;gap:8px;font-family:"Bebas Neue",sans-serif;font-weight:400;font-size:30px;line-height:100%;height:81px;text-align:center;border-radius:1520px;text-transform:uppercase;color:#fff;text-decoration:none;padding:19px 0;margin:0 auto 32px;background:linear-gradient(0deg,#0260E8,#0260E8),radial-gradient(102.92% 102.92% at 50% -45.56%,rgba(2,96,232,.55) 0%,rgba(2,96,232,0) 100%);box-shadow:0 3px 0 0 #093E8C,0 0 36.48px 0 #0260E899 inset,0 4px 20px 0 #0260E880;border:none;cursor:pointer}.fire{max-width:45px;width:100%;height:auto}.timer{margin-top:-10px;font-family:"Bebas Neue",sans-serif;font-weight:400;font-size:36px;line-height:100%;text-align:center;text-transform:uppercase}.inner__title{margin:8px 0 3px;font-family:"Bebas Neue",sans-serif;font-weight:400;font-size:33px;line-height:115%;text-align:center;text-transform:uppercase}.inner__title span{color:#0367FD}.inner__row{display:flex;align-items:center;justify-content:center;gap:8px;margin:0 auto 13px}.row__title{font-family:"Bebas Neue",sans-serif;font-weight:400;font-size:56px;line-height:100%;letter-spacing:-.05em;position:relative;z-index:4}.sticky{position:absolute;left:-7px;top:17px;z-index:11}.inner__text{font-family:Inter,sans-serif;font-weight:400;font-size:17px;line-height:135%;max-width:211px;width:100%}.inner__text b{font-weight:900}</style>
+
+  <!-- Meta Pixel Code -->
 <script>
 !function(f,b,e,v,n,t,s)
 {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
@@ -25,119 +27,103 @@ fbq('track', 'PageView');
 <noscript><img height="1" width="1" style="display:none"
 src="https://www.facebook.com/tr?id=818161497680283&ev=PageView&noscript=1"
 /></noscript>
-<!-- End Meta Pixel Code -->
-  <link rel="stylesheet" href="./css/main.css" media="print" onload="this.media='all'" />
-  <noscript>
-    <link rel="stylesheet" href="./css/main.css" />
-  </noscript>
+  <!-- End Meta Pixel Code -->
+
+  <link rel="stylesheet" href="./css/main.css" media="print" onload="this.media='all'">
+  <noscript><link rel="stylesheet" href="./css/main.css"></noscript>
 </head>
 
 <body>
-
-  <main> 
-
-  <div class="wrapper">
-    <img src="./images/wrapper__img.avif" width="375" height="570" loading="lazy" decoding="async" alt="wrapperImg"
-      class="wrapper__img">
-    <header class="header">
-      <div class="header__container container">
-        <div class="header__row">
-          <img src="./images/calendar.png" width="20" height="20" loading="lazy" decoding="async" alt="calendar">
-          <p class="row__text">12-13-may</p>
+  <main>
+    <div class="wrapper">
+      <img src="./images/wrapper__img.avif" width="375" height="570" decoding="async" alt="" class="wrapper__img">
+      <header class="header">
+        <div class="header__container container">
+          <div class="header__row">
+            <img src="./images/calendar.png" width="20" height="20" decoding="async" alt="">
+            <p class="row__text">12-13-may</p>
+          </div>
+          <div class="header__row">
+            <img src="./images/clock.png" width="20" height="20" decoding="async" alt="">
+            <p class="row__text">Soat: 20:00</p>
+          </div>
         </div>
-        <div class="header__row">
-          <img src="./images/clock.png" width="20" height="20" loading="lazy" decoding="async" alt="calendar">
-          <p class="row__text">Soat: 20:00</p>
-        </div>
-      </div>
-    </header>
-  </div>
-
-  <section class="hero">
-    <div class="hero__container container">
-      <h2 class="hero__title">
-        Qanday qilib Attestatsiyadan <br> yuqori ball olib, <span>70% ustamaga <br> ega bo’lish</span> mumkin?
-      </h2>
-      <p class="hero__text">2 kunlik bepul darsda o’rganing</p>
-      <img src="./images/logo.avif" width="229" height="258" fetchpriority="high" decoding="async" alt="logo"
-        class="logo">
-     <button class="btn webinar-cta">
-           bepul qatnashish
-          <img src="./images/fire.avif" width="45" height="43" loading="lazy" decoding="async" alt="fire">
-        </button>
-      <div class="timer-container">
-        <p class="timer" id="timer">01:59</p>
-      </div>
-      <div class="hero__inner">
-        <h2 class="inner__title"><span>“Attestatsiya Sirlari”</span> <br> 2 kunlik darsida siz:</h2>
-        <div class="inner__row">
-          <h3 class="row__title">01 <img src="./images/stic.svg" width="13" height="13" loading="lazy" decoding="async"
-              alt="stic" class="sticky"></h3>
-          <p class="inner__text">Attestatsiya imtihonida <br> <b>vaqtni to’g’ri</b> taqsimlash</p>
-        </div>
-        <div class="inner__row">
-          <h3 class="row__title">02 <img src="./images/stic.svg" width="13" height="13" loading="lazy" decoding="async"
-              alt="stic" class="sticky"></h3>
-          <p class="inner__text">Murakkab matematik <br> <b>misollarni oson</b> yechish</p>
-        </div>
-        <div class="inner__row">
-          <h3 class="row__title">03 <img src="./images/stic.svg" width="13" height="13" loading="lazy" decoding="async"
-              alt="stic" class="sticky"></h3>
-          <p class="inner__text">Attestatsiyadan <b>yuqori ball <br> </b> olish <b>sirlarini</b> o’rganasiz</p>
-        </div>
-      
-        <button class="btn webinar-cta">
-           bepul qatnashish
-          <img src="./images/fire.avif" width="45" height="43" loading="lazy" decoding="async" alt="fire">
-        </button>
-      </div>
+      </header>
     </div>
-  </section>
+
+    <section class="hero">
+      <div class="hero__container container">
+        <h1 class="hero__title">
+          Qanday qilib Attestatsiyadan <br> yuqori ball olib, <span>70% ustamaga <br> ega bo’lish</span> mumkin?
+        </h1>
+        <p class="hero__text">2 kunlik bepul darsda o’rganing</p>
+        <img src="./images/logo.avif" width="229" height="258" fetchpriority="high" decoding="async" alt="logo" class="logo">
+        <button type="button" class="btn webinar-cta">
+          bepul qatnashish
+          <img src="./images/fire.avif" width="45" height="43" decoding="async" alt="">
+        </button>
+        <p class="timer" id="timer">01:59</p>
+        <div class="hero__inner">
+          <h2 class="inner__title"><span>“Attestatsiya Sirlari”</span> <br> 2 kunlik darsida siz:</h2>
+          <div class="inner__row">
+            <h3 class="row__title">01<img src="./images/stic.svg" width="13" height="13" loading="lazy" decoding="async" alt="" class="sticky"></h3>
+            <p class="inner__text">Attestatsiya imtihonida <br> <b>vaqtni to’g’ri</b> taqsimlash</p>
+          </div>
+          <div class="inner__row">
+            <h3 class="row__title">02<img src="./images/stic.svg" width="13" height="13" loading="lazy" decoding="async" alt="" class="sticky"></h3>
+            <p class="inner__text">Murakkab matematik <br> <b>misollarni oson</b> yechish</p>
+          </div>
+          <div class="inner__row">
+            <h3 class="row__title">03<img src="./images/stic.svg" width="13" height="13" loading="lazy" decoding="async" alt="" class="sticky"></h3>
+            <p class="inner__text">Attestatsiyadan <b>yuqori ball</b> olish <b>sirlarini</b> o’rganasiz</p>
+          </div>
+          <button type="button" class="btn webinar-cta">
+            bepul qatnashish
+            <img src="./images/fire.avif" width="45" height="43" loading="lazy" decoding="async" alt="">
+          </button>
+        </div>
+      </div>
+    </section>
   </main>
 
-   <div id="registrationModal" class="homeModal" style="display: none">
-        <div class="homeModalOverlay"></div>
-        <div class="homeFormContainer">
-            <button type="button" class="closeButton" id="closeModalBtn" aria-label="Yopish">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 12 12" fill="none">
-                    <path d="M1 11L11 1M1 1.00001L11 11" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" />
-                </svg>
+  <div id="registrationModal" class="homeModal" style="display:none">
+    <div class="homeModalOverlay"></div>
+    <div class="homeFormContainer">
+      <button type="button" class="closeButton" id="closeModalBtn" aria-label="Yopish">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 12 12" fill="none">
+          <path d="M1 11L11 1M1 1.00001L11 11" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" />
+        </svg>
+      </button>
+      <div class="homeFormTop">
+        <h2 class="homeFormTopTitle">
+          Ro’yxatdan o’tish uchun <br> ma’lumotlaringizni kiriting!
+        </h2>
+      </div>
+      <form id="registrationForm" name="contact-form">
+        <div class="HomeFormRow">
+          <label class="HomeFormRowLabel" for="phone">Telefon raqamingiz:</label>
+          <div class="phone-input-container">
+            <button type="button" class="selected-country" id="selectedCountry">
+              <div id="selectedCountryFlag" style="display:flex;align-items:center"></div>
+              <svg id="dropdownIcon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="6 9 12 15 18 9"></polyline>
+              </svg>
+              <span class="selected-code" id="selectedCountryCode">+998</span>
             </button>
-            <div class="homeFormTop">
-                <h1 class="homeFormTopTitle">
-                    Ro'yxatdan o'tish uchun <br> ma'lumotlaringizni kiriting!
-                </h1>
+            <div class="country-dropdown" id="countryDropdown" style="display:none"></div>
+            <div class="phone-field" style="flex:1">
+              <input class="HomeFormRowInput phone-input" type="tel" id="phone" name="phone" inputmode="numeric" placeholder="88 888 88 88" autocomplete="tel" style="border:none;background-color:transparent;padding-left:5px;width:100%">
             </div>
-            <form id="registrationForm" name="contact-form">
-                <div class="HomeFormRow">
-                    <label class="HomeFormRowLabel" for="phone">Telefon raqamingiz:</label>
-                    <div class="phone-input-container">
-                        <button type="button" class="selected-country" id="selectedCountry">
-                            <div id="selectedCountryFlag" style="display: flex; align-items: center;"></div>
-                            <svg id="dropdownIcon" xmlns="http://www.w3.org/2000/svg" width="16" height="16"
-                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                                stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="6 9 12 15 18 9"></polyline>
-                            </svg>
-                            <span class="selected-code" id="selectedCountryCode">+998</span>
-                        </button>
-                        <div class="country-dropdown" id="countryDropdown" style="display:none"></div>
-                        <div class="phone-field" style="flex: 1;">
-                            <input class="HomeFormRowInput phone-input" type="tel" id="phone" name="phone"
-                                inputmode="numeric" placeholder="88 888 88 88" autocomplete="tel"
-                                style="border: none; background-color: transparent; padding-left: 5px; width: 100%;" />
-                        </div>
-                    </div>
-                    <p class="homeFormErrorText" id="phoneError" style="display:none">❌ Telefon raqam mos emas!</p>
-                </div>
-
-                <button type="submit" class="HomeFormBtn" id="submitBtn">DAVOM ETISH</button>
-            </form>
+          </div>
+          <p class="homeFormErrorText" id="phoneError" style="display:none">❌ Telefon raqam mos emas!</p>
         </div>
+        <button type="submit" class="HomeFormBtn" id="submitBtn">DAVOM ETISH</button>
+      </form>
     </div>
+  </div>
 
-        <script defer src="./js/phoneFormatter.js"></script>
-    <script defer src="./js/app.js"></script>
+  <script defer src="./js/phoneFormatter.js"></script>
+  <script defer src="./js/app.js"></script>
 
   <!-- Meta Pixel Code -->
 <script defer>
@@ -155,7 +141,7 @@ fbq('track', 'PageView');
 <noscript><img height="1" width="1" style="display:none"
 src="https://www.facebook.com/tr?id=2432139263912222&ev=PageView&noscript=1"
 /></noscript>
-<!-- End Meta Pixel Code -->
+  <!-- End Meta Pixel Code -->
 </body>
 
 </html>

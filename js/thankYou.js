@@ -10,13 +10,12 @@ async function sendFormData() {
   // Prepare FormData for API
   const formData = new FormData();
   formData.append("sheetName", "Lead");
-  formData.append("Ism", formDataObj.Ism);
   formData.append("Telefon raqam", formDataObj.TelefonRaqam);
   formData.append("Royhatdan o'tgan vaqti", formDataObj.SanaSoat);
 
   try {
     const response = await fetch(
-			'https://script.google.com/macros/s/AKfycbwPdL4C4CvdBo1seLJQtLBdxPcUERSJ3Pm3Szu9amrQjL9XDIcR2n5mbLaddwfvpTd-/exec',
+			'https://script.google.com/macros/s/AKfycbyFDgIm7g0V3215U2YIjnHGpgZ26x78cQem01-PsI4vtjRKB-EHHFrgbn4XDwpHvglx/exec',
 			{
 				method: 'POST',
 				body: formData,
